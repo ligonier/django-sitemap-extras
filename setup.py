@@ -1,8 +1,6 @@
 import os
 from distutils.core import setup
 
-from sitemapext import __version__
-
 
 def read_file(filename):
     """Read a file into a string"""
@@ -14,7 +12,7 @@ def read_file(filename):
         return ''
 
 setup(name='django-sitemap-extras',
-      version=__version__,
+      version="1.0",
       description='A rethink of django.contrib.sitemaps that focuses on better performance, more flexibliity and support for a larger variety of formats.',
       long_description=read_file('README.rst'),
       author='Justin Quick',
